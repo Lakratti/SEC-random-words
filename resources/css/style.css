@@ -15,7 +15,7 @@ body {
 h1 {
   font-size: 5rem;
   text-align: center;
-  margin: 1rem auto 1rem auto;
+  margin: .1rem auto 1rem auto;
   font-family: 'Kodchasan', sans-serif;
 }
 
@@ -23,6 +23,53 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   padding: 1rem;
+}
+
+span {
+  font-size: .75rem;
+  font-style: normal;
+}
+
+a:active, a:hover, a:visited {
+  color: #1985A1;
+}
+
+
+
+/* = = = FONTS = = = */
+
+@font-face {
+  font-family: 'KoHo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/KoHo/KoHo-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'KoHo';
+  font-weight: 500;
+  src: url(../fonts/KoHo/KoHo-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Kodchasan';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Kodchasan/Kodchasan-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/Montserrat/Montserrat-Italic.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
 }
 
 
