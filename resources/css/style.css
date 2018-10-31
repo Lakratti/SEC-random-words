@@ -1,0 +1,92 @@
+/* = = = Universal Styles = = = */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'KoHo', sans-serif;
+}
+
+body {
+  background-color: #DCDCDD;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin: 1rem auto 1rem auto;
+  font-family: 'Kodchasan', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  padding: 1rem;
+}
+
+
+
+/* = = = Generate Buttons Horizontal Section = = = */
+.fluid-container {
+  width: 100%;
+  background-color: #1985A1;
+}
+
+.buttons-container, .words-container {
+  max-width: 60rem;
+  display: flex;
+  border-radius: .5rem;
+}
+
+.buttons-container {
+  margin: 1rem auto;
+  padding: 0 3rem;
+  justify-content: space-between;
+}
+
+.buttons-container button {
+  margin: 1rem;
+  padding: 1rem .5rem;
+  width: 15rem;
+  font-size: 1rem;
+  font-family: 'KoHo', sans-serif;
+  font-weight: 500;
+  border-radius: .5rem;
+}
+
+.buttons-container button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.buttons-container button:active {
+  cursor: wait;
+  color: #1985A1;
+  font-weight: bold;
+}
+
+.buttons-container button:first-child {
+  font-size: 1.5rem;
+}
+
+
+
+/* = = = Words Area = = = */
+.words-container {
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: #4C5C68;
+  flex-direction: column;
+}
+
+.words-container button {
+  min-height: 6rem;
+  margin: .5rem;
+  padding: auto;
+  font-size: 3rem;
+  font-family: 'KoHo', sans-serif;
+  font-weight: 500;
+  letter-spacing: 5px;
+
+}
