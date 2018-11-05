@@ -1,6 +1,6 @@
 /* = = = Universal Styles = = = */
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 html {
@@ -136,4 +136,46 @@ a:active, a:hover, a:visited {
   font-weight: 500;
   letter-spacing: 5px;
 
+}
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    h1 {
+    font-size: 3rem;
+    }
+    .buttons-container button, .buttons-container button:first-child {
+    font-size: 1.25rem;
+    }
+
+    .word-container {
+      padding: 1rem;
+    }
+    .words-container button {
+    min-height: 3rem;
+    font-size: 1.5rem;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    h1 {
+    font-size: 2rem;
+    }
+    .buttons-container button, .buttons-container button:first-child {
+    font-size: .75rem;
+    }
+
+    .word-container {
+      padding: 1rem;
+    }
+    .words-container button {
+    min-height: 3rem;
+    font-size: 1.25rem;
+
+    }
 }
